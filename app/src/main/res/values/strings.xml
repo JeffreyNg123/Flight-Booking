@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flight</string>
+
+    <string-array name="location">
+        <item>Osaka, Japan</item>
+        <item>Incheon, Korea</item>
+        <item>BeiJing, China</item>
+        <item>Don Mueang, Thailand</item>
+        <item>Indira Gandhi, Indonesia</item>
+    </string-array>
+</resources>

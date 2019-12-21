@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Choose a Following:"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"/>
+
+    <Button
+        android:id="@+id/btnBookTicket"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_12sdp"
+        android:text="Book Tickets"/>
+
+    <Button
+        android:id="@+id/btnCheckBookingDetails"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_12sdp"
+        android:text="Logout"/>
+
+
+    </LinearLayout>
+</ScrollView>
